@@ -4,6 +4,9 @@
 
 
 <input id="answer" name="answer" type="text" />
+[x]: 3
+
+
 
 
 /* Basic and simple one */
