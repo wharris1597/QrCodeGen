@@ -12,11 +12,8 @@
         }
 </script>
 
- 
- 
- 
- 
- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+  
+<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
             <div class="col-lg-6">
                 <div id="qrcode"></div>
             </div>
@@ -49,3 +46,4 @@
                 </div>
             </div>
         </div>
+
