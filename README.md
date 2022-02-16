@@ -12,8 +12,7 @@
         }
 </script>
 <script>
- 
- QR Code Generator
+QR Code Generator
 <p class="mb-0 text-white-50">This is a QR Code generator that demonstrates a small amount of javascript and HTML knowledge.
 Enter some text to generate a code. IT can be a website or a secret message to a friend!</p>
 <br />
