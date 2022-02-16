@@ -8,7 +8,7 @@
 new QRCode(document.getElementById("qrcode"), "https://webisora.com");
 </script>
 
-div id="qrcode-2"></div>
+<div id="qrcode-2"></div>
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode-2"), {
 	text: "https://webisora.com",
