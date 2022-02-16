@@ -24,7 +24,7 @@
 
                             <h4 class="text-white">QR Code Generator</h4>
                             <p class="mb-0 text-white-50">This is a QR Code generator that demonstrates a small amount of javascript and HTML knowledge.
-                            Enter some text to generate a code. IT can be a website or a secret message to a friend!</p>
+                            Enter some text to generate a code. It can be a website or a secret message to a friend!</p>
                            <br />
                             <input id="qrtext" type="text" placeholder="Embedded QR Text" />
                             <br /><br />
