@@ -18,7 +18,7 @@
 function myFunction(){
 document.getElementById("qrcode").innerHTML = "";
 var qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: document.getElementById("qrtext"),
+	text: document.getElementById("qrtext").value,
 	width: 128,
 	height: 128,
 	colorDark : "#5868bf",
