@@ -15,11 +15,8 @@
 <br><br><br>
 <div id="qrcode" align="center" ></div>
 
-<script>
-	function myFunction(){
-		document.getElementById("qrcode").innerHTML = "";
-		<script type="text/javascript">
-		var qrcode = new QRCode(document.getElementById("qrcode"), {
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: document.getElementById("qrtext"),
 	width: 128,
 	height: 128,
@@ -27,7 +24,6 @@
 	colorLight : "#ffffff",
 	correctLevel : QRCode.CorrectLevel.H
 });
-</script>
 </script>
 
 
