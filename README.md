@@ -2,6 +2,10 @@
 
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 
+
+<input id="answer" name="answer" type="text" />
+
+
 /* Basic and simple one */
 <div id="qrcode"></div>
 <script type="text/javascript">
