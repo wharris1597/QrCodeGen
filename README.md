@@ -29,13 +29,12 @@
                             <input id="qrtext" type="text" placeholder="Embedded QR Text" />
                             <br /><br />
                             <button onclick="qrgen('')">Generate Text Code</button><br /><br />
-                            <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn">More Options</button>
-                                <div id="myDropdown" class="dropdown-content">
+                            
+                              
                                     <button id="call" onclick="qrgen('tel:')">Call</button><br />
                                     <button id="email" onclick="qrgen('mailto:')">Email</button><br />
                                     <button id="text" onclick="qrgen('sms:')">Text</button>
-                                </div>
+                         
 
                             </div>
 
