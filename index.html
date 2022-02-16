@@ -14,7 +14,8 @@
 <label for="qrtext">QR Text: </label><input id="qrtext" placeholder="Embedded Text"/> <button id="qrtextbutton" onclick=myFunction()> Generate Code </button>
 <br><br><br>
 <div id="qrcode" align="center" ></div>
-
+<script>
+function myFunction(){
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: document.getElementById("qrtext"),
@@ -22,10 +23,9 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 	height: 128,
 	colorDark : "#5868bf",
 	colorLight : "#ffffff",
-	correctLevel : QRCode.CorrectLevel.H
-});
+	correctLevel : QRCode.CorrectLevel.H})};
 </script>
-
+</script>
 
 
 </body>
