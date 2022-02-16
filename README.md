@@ -7,3 +7,15 @@
 <script type="text/javascript">
 new QRCode(document.getElementById("qrcode"), "https://webisora.com");
 </script>
+
+div id="qrcode-2"></div>
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("qrcode-2"), {
+	text: "https://webisora.com",
+	width: 128,
+	height: 128,
+	colorDark : "#5868bf",
+	colorLight : "#ffffff",
+	correctLevel : QRCode.CorrectLevel.H
+});
+</script>
