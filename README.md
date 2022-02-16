@@ -36,13 +36,4 @@
                                     <button id="text" onclick="qrgen('sms:')">Text</button>
                          
 
-                            </div>
-
-
-                            <hr class="d-none d-lg-block mb-0 ms-0" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+                          
